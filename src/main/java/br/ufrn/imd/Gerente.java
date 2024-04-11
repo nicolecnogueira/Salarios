@@ -5,7 +5,7 @@ public class Gerente extends Funcionario{
         JUNIOR(1000), PLENO(2000), SENIOR(3000);
         private double bonus;
 
-        Nivel(double bonus){
+        private Nivel(double bonus){
             this.bonus = bonus;
         }
     }
