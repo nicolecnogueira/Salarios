@@ -17,6 +17,7 @@ public class Gerente extends Funcionario{
         this.nivel = nivel;
     }
 
+    @Override
     public double calcularSalario(){
         return chMensal * hh + nivel.bonus;
     }
